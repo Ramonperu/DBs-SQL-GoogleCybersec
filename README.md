@@ -386,3 +386,19 @@ WHERE a.jefe_id = b.id;
 ```
 
 *Selecciona los nombres de empleados y sus jefes correspondientes comparando la tabla `empleados` consigo misma.*
+
+------
+
+### Diferencias entre inner join y outer
+
+**INNER JOIN:**
+
+- Devuelve filas **únicamente** cuando hay una coincidencia en **ambas** tablas según la condición de unión especificada.
+- Imagina que buscas elementos comunes en dos conjuntos de datos.
+
+**OUTER JOIN:**
+
+- Devuelve filas incluso si **no hay coincidencia** en una de las tablas.
+- **LEFT JOIN:** Devuelve **todas** las filas de la tabla de la **izquierda** y las filas coincidentes de la derecha.
+- **RIGHT JOIN:** Devuelve **todas** las filas de la tabla de la **derecha** y las filas coincidentes de la izquierda.
+- **FULL OUTER JOIN:** Devuelve **todas** las filas de **ambas** tablas, independientemente de si hay coincidencia.
