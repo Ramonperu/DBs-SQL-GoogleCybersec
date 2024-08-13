@@ -1,6 +1,6 @@
 # Bases de datos y SQL
 
-Bienvenidos a la introduccion de SQL y base de datos gracias al curso de Google de Ciberseguridad https://www.coursera.org/learn/linux-and-sql/home/week/1 
+Bienvenidos a la introduccion de SQL y base de datos gracias al [curso](https://www.coursera.org/learn/linux-and-sql) de Google de Ciberseguridad 
 
 
 
@@ -291,6 +291,8 @@ SELECT * FROM empleados WHERE NOT edad > 25;
 
 Las operaciones de `JOIN` en SQL permiten combinar filas de dos o más tablas basadas en una columna relacionada entre ellas.
 
+<img align="center" src="/img/1ºimagenn.PNG"  />
+
 ------
 
 ### Inner join
@@ -389,16 +391,4 @@ WHERE a.jefe_id = b.id;
 
 ------
 
-### Diferencias entre inner join y outer
-
-**INNER JOIN:**
-
-- Devuelve filas **únicamente** cuando hay una coincidencia en **ambas** tablas según la condición de unión especificada.
-- Imagina que buscas elementos comunes en dos conjuntos de datos.
-
-**OUTER JOIN:**
-
-- Devuelve filas incluso si **no hay coincidencia** en una de las tablas.
-- **LEFT JOIN:** Devuelve **todas** las filas de la tabla de la **izquierda** y las filas coincidentes de la derecha.
-- **RIGHT JOIN:** Devuelve **todas** las filas de la tabla de la **derecha** y las filas coincidentes de la izquierda.
-- **FULL OUTER JOIN:** Devuelve **todas** las filas de **ambas** tablas, independientemente de si hay coincidencia.
+### 
